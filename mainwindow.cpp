@@ -8,6 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     QMessageBox::aboutQt(this);
+    int i;
 }
 
 MainWindow::~MainWindow()
